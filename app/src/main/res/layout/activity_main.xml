@@ -11,11 +11,11 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/registro"
         android:layout_width="199dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="192dp"
-        android:text="Cambiar usuario"
+        android:layout_marginBottom="188dp"
+        android:text="Registrarse"
         android:textColorLink="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,19 +25,20 @@
         android:id="@+id/button2"
         android:layout_width="203dp"
         android:layout_height="67dp"
-        android:layout_marginStart="100dp"
         android:text="Iniciar Sesión"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913" />
+        app:layout_constraintVertical_bias="0.673" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="158dp"
         android:layout_height="154dp"
         android:src="@drawable/logooo"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +46,7 @@
         app:layout_constraintVertical_bias="0.296" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/moneykeeper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MoneyKeeper"
